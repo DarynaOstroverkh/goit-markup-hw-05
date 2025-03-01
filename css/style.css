@@ -483,3 +483,9 @@ img {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
+.close-form {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 24px;
+  padding-left: 24px;
+}
