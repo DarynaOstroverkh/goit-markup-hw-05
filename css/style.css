@@ -417,6 +417,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.footer-container-social {
+  margin-right: 80px;
+}
 .footer-container-social-txt {
   font-weight: 500;
   font-size: 16px;
@@ -449,6 +452,56 @@ img {
 .footer-link:focus {
   background-color: #31d0aa;
 }
+.subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-label-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: transparent;
+  padding-left: 16px;
+}
+.footer-label-input::placeholder {
+  color: #fff;
+}
+.footer-form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.footer-form-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
+/*---------------modal-------------*/
 .backdrop {
   position: fixed;
   top: 0;
