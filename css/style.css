@@ -557,11 +557,11 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-close:hover {
-  background-color: #404bbf;
+  fill: #404bbf;
   border: none;
 }
 .button-close:focus {
-  background-color: #404bbf;
+  fill: #404bbf;
   border: none;
 }
 .icon-close {
