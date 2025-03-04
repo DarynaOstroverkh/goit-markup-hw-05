@@ -601,7 +601,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.checkbox-label a {
+.checkbox-link {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -623,4 +623,21 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.form-btn {
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #4d5ae5;
+  display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
